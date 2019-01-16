@@ -1,4 +1,4 @@
-env: test
+env: test3
 spring:
   application:
     name: order
