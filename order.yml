@@ -1,9 +1,12 @@
-girl: 
-  name: lijing
-  age: 23
+
 spring:
   application:
     name: order
+  rabbitmq:
+    port: 5672
+    username: melodykke
+    password: Y223183q!
+    host: localhost
   datasource:
     # 使用阿里的Druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
