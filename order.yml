@@ -1,4 +1,6 @@
-
+girl: 
+  name: lijing
+  age: 23
 spring:
   application:
     name: order
