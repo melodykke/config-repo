@@ -1,4 +1,6 @@
-
+girl: 
+  name: lijinng
+  age: 32
 env: test4
 spring:
   application:
