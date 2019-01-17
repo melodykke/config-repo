@@ -1,6 +1,11 @@
 spring:
   application:
     name: product
+  rabbitmq:
+    host: localhost
+    username: melodykke
+    password: Y223183q!
+    port: 5672
   datasource:
     # 使用阿里的Druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
