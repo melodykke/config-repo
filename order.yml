@@ -83,3 +83,6 @@ pagehelper:
     supportMethodsArguments: true
     params: count=countSql
     returnPageInfo: check
+logging:
+  level:
+    org.springframework.cloud.bus: debug
