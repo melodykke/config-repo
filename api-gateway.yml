@@ -1,5 +1,11 @@
-
+spring: 
+  rabbitmq:
+    port: 5672
+    username: melodykke
+    password: Y223183q!
+    host: localhost
 zuul:
+  sensitive-headers: 
   routes:
 #    myProduct:
 #      path: /myProduct/**
@@ -16,3 +22,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud.bus: debug
