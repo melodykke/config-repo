@@ -1,19 +1,10 @@
 
-spring:
-  application:
-    name: api-gateway
-  cloud:
-    config:
-      discovery:
-        enabled: true
-        service-id: config
-      profile: dev
 zuul:
   routes:
 #    myProduct:
 #      path: /myProduct/**
 #      serviceId: product
-    product: /myproduct/**
+    product: /my-product/**
   ignored-patterns:
        - /**/product/listForOrder
 management:
