@@ -6,7 +6,7 @@ zuul:
 #      serviceId: product
     product: /product/**
   ignored-patterns:
-       - /**/product/listForOrder
+       - /**/pppproduct/listForOrder
 management:
   endpoints:
     web:
