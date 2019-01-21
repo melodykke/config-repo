@@ -13,7 +13,7 @@ zuul:
 #    myProduct:
 #      path: /myProduct/**
 #      serviceId: product
-    product: /myProduct/**
+    product: /myproduct/**
   ignored-patterns:
        - /**/product/listForOrder
 management:
