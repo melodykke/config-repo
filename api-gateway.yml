@@ -4,9 +4,9 @@ zuul:
 #    myProduct:
 #      path: /myProduct/**
 #      serviceId: product
-    product: /product/**
+    product: /pppppproduct/**
   ignored-patterns:
-       - /**/pppproduct/listForOrder
+       - /**/product/listForOrder
 management:
   endpoints:
     web:
