@@ -1,6 +1,11 @@
 spring:
   application:
     name: portal
+  rabbitmq:
+    port: 5672
+    username: melodykke
+    password: Y223183q!
+    host: localhost
   datasource:
     name: watercloud-portal-druid-datasource
     type: com.alibaba.druid.pool.DruidDataSource
